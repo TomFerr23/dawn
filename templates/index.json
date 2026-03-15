@@ -22,7 +22,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "A circle where we believe in better cocoa.",
+            "text": "A circle where we believe in better cocoa — crafted to elevate your baking and to pack a positive impact.",
             "text_style": "subtitle"
           }
         },
@@ -30,11 +30,11 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Our Cocoa",
-            "button_link_1": "shopify://collections/our-cocoa",
+            "button_link_1": "/collections/our-cocoa",
             "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label_2": "Our Story",
+            "button_link_2": "/pages/our-story",
+            "button_style_secondary_2": true
           }
         }
       },
@@ -54,9 +54,270 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
+    },
+    "brand_pillars": {
+      "type": "multicolumn",
+      "blocks": {
+        "pillar_1": {
+          "type": "column",
+          "settings": {
+            "title": "Better for Farmers",
+            "text": "<p>Every purchase directly supports sustainable cacao farms in Central America. We pay above fair-trade prices and invest in local communities.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "pillar_2": {
+          "type": "column",
+          "settings": {
+            "title": "Better for Baking",
+            "text": "<p>100% pure, single-origin Criollo cacao with a deep, complex flavour profile. No fillers, no additives — just exceptional cocoa.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "pillar_3": {
+          "type": "column",
+          "settings": {
+            "title": "Better for Creativity",
+            "text": "<p>From velvety powder to easy-melt drops and crunchy nibs, our range gives you the tools to create something extraordinary.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "pillar_1",
+        "pillar_2",
+        "pillar_3"
+      ],
+      "settings": {
+        "title": "The Cocoa Circle Promise",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "featured_products": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Our Cocoa",
+        "heading_size": "h1",
+        "collection": "our-cocoa",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "columns_mobile": "2",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "brand_story": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption": {
+          "type": "caption",
+          "settings": {
+            "caption": "Our Story"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "From Farm to Cup",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Cocoa Circle was born from a simple belief: cocoa should be better. Better for the farmers who grow it, better for the bakers who use it, and better for the planet we share.</p><p>We partner directly with five family farms across Central America, paying premium prices for their exceptional Criollo cacao. No middlemen, no compromises.</p>",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Meet Our Farmers",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "caption",
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "quote_section": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Peace. Love. Cocoa.",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Life is sweeter when you know your cocoa was made with love — for the farmers, for the planet, and for you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "faq_section": {
+      "type": "collapsible-content",
+      "blocks": {
+        "faq_1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What makes your cocoa different?",
+            "icon": "question_mark",
+            "row_content": "<p>Our cocoa is 100% pure, single-origin Criollo cacao — one of the rarest and most flavourful varieties in the world. We source directly from family farms and never add fillers or artificial flavours.</p>",
+            "page": ""
+          }
+        },
+        "faq_2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is your cocoa fair trade?",
+            "icon": "heart",
+            "row_content": "<p>We go beyond fair trade. We work directly with our partner farms, paying premium prices that exceed fair-trade minimums. More money reaches the farmers and their communities.</p>",
+            "page": ""
+          }
+        },
+        "faq_3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How should I store my cocoa products?",
+            "icon": "box",
+            "row_content": "<p>Store in a cool, dry place away from direct sunlight. Our resealable pouches keep your cocoa fresh for up to 12 months.</p>",
+            "page": ""
+          }
+        },
+        "faq_4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you ship internationally?",
+            "icon": "truck",
+            "row_content": "<p>Yes! We ship throughout Europe. Orders over €35 qualify for free shipping within the Netherlands. International rates are calculated at checkout.</p>",
+            "page": ""
+          }
+        },
+        "faq_5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are your products vegan and gluten-free?",
+            "icon": "leaf",
+            "row_content": "<p>All products are 100% plant-based, vegan, and naturally gluten-free. No dairy, no soy, no added sugars.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "faq_1",
+        "faq_2",
+        "faq_3",
+        "faq_4",
+        "faq_5"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "section",
+        "color_scheme": "scheme-1",
+        "container_color_scheme": "scheme-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join the Circle"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Get recipes, farm stories, and exclusive offers delivered to your inbox. No spam, just cocoa goodness.</p>"
+          }
+        },
+        "email_form": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email_form"
+      ],
+      "settings": {
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
-    "hero_banner"
+    "hero_banner",
+    "brand_pillars",
+    "featured_products",
+    "brand_story",
+    "quote_section",
+    "faq_section",
+    "newsletter"
   ]
 }
